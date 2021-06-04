@@ -1,6 +1,6 @@
 local virus = {"RoSync", "getfenv", "function spread()", "Lag Script", "RSFfacility", "4D Being", "check.Size = check.Size + 1",
 	"InfectedScript", "PSU Obfuscator", "market:PlayerOwnsAsset(v,", "lIIIllIIIIIIIIllIl", "loadstring", "local wat=", "ILIL",
-	"Virus Protect", "VirusScript", "made by Studio", "luraph", "IronBrew", "SynapseXen"
+	"Virus Protect", "VirusScript", "made by Studio", "luraph", "IronBrew", "SynapseXen", "eriuqer"
 }
 local virusnames = {"fx", "FX", "Vaccine", "Virus", "VirusScript", "RSFfacility", "Virus Pack 4.5", "ROLF", "Snap Reducer", "4D Being", "Expire",
 	"Thanks 2X", "Thanks For Using", "Mesher", "MeshLoader", "    ", " ", "  ", "   ", "OHAI", "No samurai plzzz", "C-REX", "LoaderScript"
@@ -33,7 +33,7 @@ local Main = script.Parent.Main
 Main.Parent = Widget
 
 local virusfound = 0
-local versionnum = 12
+local versionnum = 13
 
 -- Open/Close Widget
 Button.Click:Connect(function()
